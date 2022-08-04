@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Paciente</title>
+</head>
+
+<body style="background-color:#938A88;">
+    <form action="">
+        <table>
+            <center>
+                <div>
+                    <img src="https://eliseovega.github.io/imgh/dental_clinic.svg" alt="clinica" width="225px"
+                        height="225px">
+                    <h1 style="color:#553355">DATOS DEL PACIENTE</h1>
+                </div>
+                <div>
+                    <label>DNI o Cedula</label>
+                    <input>
+                </div>
+                <br>
+                <div>
+                    <label>Foto</label>
+                    <input type="file">
+                </div>
+                <br>
+                <div>
+                    <label>Nombres</label>
+                    <input type="text" placeholder="Escriba su Nombre">
+                </div>
+                <br>
+                <div>
+                    <label>Apellidos</label>
+                    <input type="text" placeholder="Escriba su Apellido">
+                </div>
+                <br>
+                <div>
+                    <label>Fecha de Nacimiento</label>
+                    <input type="date" placeholder="dd/mm/aaaa">
+                </div>
+                <br>
+                <div>
+                    <label>Sexo</label>
+                    <input type="radio" value="M"> <span>Masculino </span>
+                    <input type="radio" value="F"> <span>Femenino </span>
+                </div>
+                <br>
+                <div>
+                    <label>Nombre del Representante</label>
+                    <input type="text" placeholder="Escriba el Nombre">
+                </div>
+                <br>
+                <div>
+                    <label>N° de Telefono</label>
+                    <input type="tel" placeholder="Números sin espacios">
+                </div>
+                <br>
+                <div>
+                    <label>Sala</label>
+                    <select name="Salas" id="">
+                        <option value="0">-Seleccione- </option>
+                        <option value="1">Emergencia</option>
+                        <option value="2">Sala A</option>
+                        <option value="3">Laboratorio</option>
+                        <option value="4">Rayos X</option>
+                        <option value="5">Hospitalizacion</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Direccion</label>
+                    <input type="Dir" placeholder="Números y letras">
+                </div>
+                <br>
+                <div>
+                    <label>Pais</label>
+                    <select name="Pais" id="">
+                        <option value="0">-Seleccione- </option>
+                        <option value="1">Colombia</option>
+                        <option value="2">Venezuela</option>
+                        <option value="3">Ecuador</option>
+                        <option value="4">Peru</option>
+                        <option value="5">Panama</option>
+                        <option value="6">Brasil</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Departamento</label>
+                    <input type="text" placeholder="Escriba Departamento">
+                </div>
+                <br>
+                <div>
+                    <label>Provincia</label>
+                    <input type="text" placeholder="Escriba su Provincia">
+                </div>
+                <br>
+                <div>
+                    <label>Distrito</label>
+                    <input type="text" placeholder="Escriba su Distrito">
+                </div>
+                <br>
+                <div>
+                    <label>Estado Civil</label>
+                    <select name="Estado Civil" id="">
+                        <option value="0">-Seleccione- </option>
+                        <option value="1">Soltero</option>
+                        <option value="2">Casado</option>
+                        <option value="3">Viudo</option>
+                        <option value="4">Union Libre</option>
+                        <option value="5">Separado</option>
+                        <option value="6">Divorciado</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Emergencia</label>
+                    <input type="text" placeholder="Escriba la Emergencia">
+                </div>
+                <br>
+                <div>
+                    <label>Grupo Sanguineo</label>
+                    <select name="Grupo Sanguineo" id="">
+                        <option value="0">-Seleccione- </option>
+                        <option value="1">A+</option>
+                        <option value="2">A-</option>
+                        <option value="3">B+</option>
+                        <option value="4">B-</option>
+                        <option value="5">AB+</option>
+                        <option value="6">AB-</option>
+                        <option value="7">O+</option>
+                        <option value="8">O-</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>VIH</label>
+                    <select name="VIH" id="">
+                        <option value="0">-Seleccione- </option>
+                        <option value="1">SI</option>
+                        <option value="2">NO</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label>Ocupacion</label>
+                    <input type="text" placeholder="Escriba Ocupacion">
+                </div>
+                <br>
+                <div>
+                    <label>Peso</label>
+                    <input type="text" placeholder="Escriba su Peso">
+                </div>
+                <br>
+                <div>
+                    <label>Talla</label>
+                    <input type="text" placeholder="Escriba su Talla">
+                </div>
+                <br>
+                <div>
+                    <label>Alergico</label>
+                    <textarea rows="3" placeholder="Escriba si es Alergico"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label>Medicamento que Toma</label>
+                    <textarea rows="3" placeholder="Escriba aqui su Medicamento"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label>Enfermedad</label>
+                    <textarea rows="3" placeholder="Escriba aqui su Enfermedad"></textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Cancelar">
+                </div>
+            </center>
+        </table>
+    </form>
+</body>
+
+</html>
